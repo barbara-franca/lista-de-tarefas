@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background: #c5dbf7d2;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+body{
+    background-image: url("../img/wallpaper.jpg");
+  }
+.taskItemContainer{
+    display: flex;
+}
+.container {
+    border: 1px solid #180876;
+    align-items: center;
+    text-align: center;
+    padding: 60px;
+    background-color: #618aa65b;
+    border-radius: 35px;
+}
+.title{
+    color: rgba(5, 30, 77, 0.852);
+    text-shadow:  2px 2px #547fa1;
+    background-color: #7196dbed;
+    height: 50px;
+    border-radius: 7px;
+    margin: 30px;
+}
+.new-task-input{
+   padding: 10px;
+   border-radius: 8px;
+   align-items: center;
+   text-align: center;
+   background-color: rgba(206, 197, 252, 0.371);
+ 
+  
+}
+.new-task-button{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 30px;
+    background: #95aeee;
+    font-size: .9em;
+    border-radius: 8px;
+}
+p{
+    text-align:left;
+    margin-left: 37%;
+    font-size: large;
+    font-family: "Poppins", sans-serif;
+}
+.task-item{
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-between;
+    padding: 4px;
+}
